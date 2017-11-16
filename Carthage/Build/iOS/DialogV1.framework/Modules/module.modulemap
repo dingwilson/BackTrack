@@ -1,0 +1,10 @@
+framework module DialogV1 {
+  umbrella header "DialogV1.h"
+
+  export *
+  module * { export * }
+}
+
+module DialogV1.Swift {
+    header "DialogV1-Swift.h"
+}

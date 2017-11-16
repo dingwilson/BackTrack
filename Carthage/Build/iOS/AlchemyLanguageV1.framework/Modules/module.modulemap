@@ -1,0 +1,10 @@
+framework module AlchemyLanguageV1 {
+  umbrella header "AlchemyLanguageV1.h"
+
+  export *
+  module * { export * }
+}
+
+module AlchemyLanguageV1.Swift {
+    header "AlchemyLanguageV1-Swift.h"
+}

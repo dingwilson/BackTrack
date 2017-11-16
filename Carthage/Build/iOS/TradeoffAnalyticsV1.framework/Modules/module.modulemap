@@ -1,0 +1,10 @@
+framework module TradeoffAnalyticsV1 {
+  umbrella header "TradeoffAnalyticsV1.h"
+
+  export *
+  module * { export * }
+}
+
+module TradeoffAnalyticsV1.Swift {
+    header "TradeoffAnalyticsV1-Swift.h"
+}

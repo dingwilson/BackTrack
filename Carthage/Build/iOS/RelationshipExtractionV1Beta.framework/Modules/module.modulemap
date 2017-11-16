@@ -1,0 +1,10 @@
+framework module RelationshipExtractionV1Beta {
+  umbrella header "RelationshipExtractionV1Beta.h"
+
+  export *
+  module * { export * }
+}
+
+module RelationshipExtractionV1Beta.Swift {
+    header "RelationshipExtractionV1Beta-Swift.h"
+}

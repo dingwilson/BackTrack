@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8B3A66D1D5642AE007B5CE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B3A66C1D5642AE007B5CE7 /* AppDelegate.swift */; };
+		C8B3A6721D5642AE007B5CE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8B3A6701D5642AE007B5CE7 /* Main.storyboard */; };
+		C8B3A6741D5642AE007B5CE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8B3A6731D5642AE007B5CE7 /* Assets.xcassets */; };
+		C8B3A6771D5642AE007B5CE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8B3A6751D5642AE007B5CE7 /* LaunchScreen.storyboard */; };
+		C8B3A67F1D56559D007B5CE7 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B3A67E1D56559D007B5CE7 /* RecordViewController.swift */; };
+		C8B3A6951D5678E7007B5CE7 /* Alamofire.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = C8B3A6811D5678E7007B5CE7 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C8B3A6971D5678E7007B5CE7 /* AlchemyDataNewsV1.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = C8B3A6821D5678E7007B5CE7 /* AlchemyDataNewsV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C8B3A6981D5678E7007B5CE7 /* AlchemyLanguageV1.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = C8B3A6831D5678E7007B5CE7 /* AlchemyLanguageV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C8B3A6991D5678E7007B5CE7 /* AlchemyVisionV1.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = C8B3A6841D5678E7007B5CE7 /* AlchemyVisionV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C8B3A69A1D5678E7007B5CE7 /* ConversationV1.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = C8B3A6851D5678E7007B5CE7 /* ConversationV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C8B3A69B1D5678E7007B5CE7 /* ConversationV1Experimental.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = C8B3A6861D5678E7007B5CE7 /* ConversationV1Experimental.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C8B3A69C1D5678E7007B5CE7 /* DialogV1.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = C8B3A6871D5678E7007B5CE7 /* DialogV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C8B3A69D1D5678E7007B5CE7 /* DocumentConversionV1.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = C8B3A6881D5678E7007B5CE7 /* DocumentConversionV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C8B3A69E1D5678E7007B5CE7 /* Freddy.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = C8B3A6891D5678E7007B5CE7 /* Freddy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C8B3A69F1D5678E7007B5CE7 /* LanguageTranslatorV2.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = C8B3A68A1D5678E7007B5CE7 /* LanguageTranslatorV2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C8B3A6A01D5678E7007B5CE7 /* NaturalLanguageClassifierV1.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = C8B3A68B1D5678E7007B5CE7 /* NaturalLanguageClassifierV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C8B3A6A11D5678E7007B5CE7 /* PersonalityInsightsV2.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = C8B3A68C1D5678E7007B5CE7 /* PersonalityInsightsV2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C8B3A6A21D5678E7007B5CE7 /* RelationshipExtractionV1Beta.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = C8B3A68D1D5678E7007B5CE7 /* RelationshipExtractionV1Beta.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C8B3A6A31D5678E7007B5CE7 /* RestKit.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = C8B3A68E1D5678E7007B5CE7 /* RestKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C8B3A6A41D5678E7007B5CE7 /* SpeechToTextV1.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = C8B3A68F1D5678E7007B5CE7 /* SpeechToTextV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C8B3A6A51D5678E7007B5CE7 /* Starscream.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = C8B3A6901D5678E7007B5CE7 /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C8B3A6A61D5678E7007B5CE7 /* TextToSpeechV1.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = C8B3A6911D5678E7007B5CE7 /* TextToSpeechV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C8B3A6A71D5678E8007B5CE7 /* ToneAnalyzerV3.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = C8B3A6921D5678E7007B5CE7 /* ToneAnalyzerV3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C8B3A6A81D5678E8007B5CE7 /* TradeoffAnalyticsV1.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = C8B3A6931D5678E7007B5CE7 /* TradeoffAnalyticsV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C8B3A6A91D5678E8007B5CE7 /* VisualRecognitionV3.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = C8B3A6941D5678E7007B5CE7 /* VisualRecognitionV3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C8B3A6AA1D567B45007B5CE7 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B3A6811D5678E7007B5CE7 /* Alamofire.framework */; };
+		C8B3A6AB1D567B45007B5CE7 /* AlchemyDataNewsV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B3A6821D5678E7007B5CE7 /* AlchemyDataNewsV1.framework */; };
+		C8B3A6AC1D567B45007B5CE7 /* AlchemyLanguageV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B3A6831D5678E7007B5CE7 /* AlchemyLanguageV1.framework */; };
+		C8B3A6AD1D567B45007B5CE7 /* AlchemyVisionV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B3A6841D5678E7007B5CE7 /* AlchemyVisionV1.framework */; };
+		C8B3A6AE1D567B45007B5CE7 /* ConversationV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B3A6851D5678E7007B5CE7 /* ConversationV1.framework */; };
+		C8B3A6AF1D567B45007B5CE7 /* ConversationV1Experimental.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B3A6861D5678E7007B5CE7 /* ConversationV1Experimental.framework */; };
+		C8B3A6B01D567B45007B5CE7 /* DialogV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B3A6871D5678E7007B5CE7 /* DialogV1.framework */; };
+		C8B3A6B11D567B45007B5CE7 /* DocumentConversionV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B3A6881D5678E7007B5CE7 /* DocumentConversionV1.framework */; };
+		C8B3A6B21D567B45007B5CE7 /* Freddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B3A6891D5678E7007B5CE7 /* Freddy.framework */; };
+		C8B3A6B31D567B45007B5CE7 /* LanguageTranslatorV2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B3A68A1D5678E7007B5CE7 /* LanguageTranslatorV2.framework */; };
+		C8B3A6B41D567B45007B5CE7 /* NaturalLanguageClassifierV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B3A68B1D5678E7007B5CE7 /* NaturalLanguageClassifierV1.framework */; };
+		C8B3A6B51D567B45007B5CE7 /* PersonalityInsightsV2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B3A68C1D5678E7007B5CE7 /* PersonalityInsightsV2.framework */; };
+		C8B3A6B61D567B45007B5CE7 /* RelationshipExtractionV1Beta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B3A68D1D5678E7007B5CE7 /* RelationshipExtractionV1Beta.framework */; };
+		C8B3A6B71D567B45007B5CE7 /* RestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B3A68E1D5678E7007B5CE7 /* RestKit.framework */; };
+		C8B3A6B81D567B45007B5CE7 /* SpeechToTextV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B3A68F1D5678E7007B5CE7 /* SpeechToTextV1.framework */; };
+		C8B3A6B91D567B45007B5CE7 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B3A6901D5678E7007B5CE7 /* Starscream.framework */; };
+		C8B3A6BA1D567B45007B5CE7 /* TextToSpeechV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B3A6911D5678E7007B5CE7 /* TextToSpeechV1.framework */; };
+		C8B3A6BB1D567B45007B5CE7 /* ToneAnalyzerV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B3A6921D5678E7007B5CE7 /* ToneAnalyzerV3.framework */; };
+		C8B3A6BC1D567B45007B5CE7 /* TradeoffAnalyticsV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B3A6931D5678E7007B5CE7 /* TradeoffAnalyticsV1.framework */; };
+		C8B3A6BD1D567B45007B5CE7 /* VisualRecognitionV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B3A6941D5678E7007B5CE7 /* VisualRecognitionV3.framework */; };
+		C8B3A6C21D56F506007B5CE7 /* AudioPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B3A6C11D56F506007B5CE7 /* AudioPlayerViewController.swift */; };
+		C8B3A6C41D5727DB007B5CE7 /* SwiftyJSON.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = C8B3A6C31D5727DB007B5CE7 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C8B3A6C51D5727EF007B5CE7 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B3A6C31D5727DB007B5CE7 /* SwiftyJSON.framework */; };
+		C8B3A6C71D577FBA007B5CE7 /* Pulsator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B3A6C61D577FB9007B5CE7 /* Pulsator.framework */; };
+		C8B3A6C81D577FBA007B5CE7 /* Pulsator.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = C8B3A6C61D577FB9007B5CE7 /* Pulsator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C8B3A6801D5677EB007B5CE7 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C8B3A6C41D5727DB007B5CE7 /* SwiftyJSON.framework in Copy Files */,
+				C8B3A6951D5678E7007B5CE7 /* Alamofire.framework in Copy Files */,
+				C8B3A6C81D577FBA007B5CE7 /* Pulsator.framework in Copy Files */,
+				C8B3A6971D5678E7007B5CE7 /* AlchemyDataNewsV1.framework in Copy Files */,
+				C8B3A6981D5678E7007B5CE7 /* AlchemyLanguageV1.framework in Copy Files */,
+				C8B3A6991D5678E7007B5CE7 /* AlchemyVisionV1.framework in Copy Files */,
+				C8B3A69A1D5678E7007B5CE7 /* ConversationV1.framework in Copy Files */,
+				C8B3A69B1D5678E7007B5CE7 /* ConversationV1Experimental.framework in Copy Files */,
+				C8B3A69C1D5678E7007B5CE7 /* DialogV1.framework in Copy Files */,
+				C8B3A69D1D5678E7007B5CE7 /* DocumentConversionV1.framework in Copy Files */,
+				C8B3A69E1D5678E7007B5CE7 /* Freddy.framework in Copy Files */,
+				C8B3A69F1D5678E7007B5CE7 /* LanguageTranslatorV2.framework in Copy Files */,
+				C8B3A6A01D5678E7007B5CE7 /* NaturalLanguageClassifierV1.framework in Copy Files */,
+				C8B3A6A11D5678E7007B5CE7 /* PersonalityInsightsV2.framework in Copy Files */,
+				C8B3A6A21D5678E7007B5CE7 /* RelationshipExtractionV1Beta.framework in Copy Files */,
+				C8B3A6A31D5678E7007B5CE7 /* RestKit.framework in Copy Files */,
+				C8B3A6A41D5678E7007B5CE7 /* SpeechToTextV1.framework in Copy Files */,
+				C8B3A6A51D5678E7007B5CE7 /* Starscream.framework in Copy Files */,
+				C8B3A6A61D5678E7007B5CE7 /* TextToSpeechV1.framework in Copy Files */,
+				C8B3A6A71D5678E8007B5CE7 /* ToneAnalyzerV3.framework in Copy Files */,
+				C8B3A6A81D5678E8007B5CE7 /* TradeoffAnalyticsV1.framework in Copy Files */,
+				C8B3A6A91D5678E8007B5CE7 /* VisualRecognitionV3.framework in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C8B3A66C1D5642AE007B5CE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C8B3A6711D5642AE007B5CE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8B3A6731D5642AE007B5CE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8B3A6761D5642AE007B5CE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8B3A6781D5642AE007B5CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8B3A67E1D56559D007B5CE7 /* RecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		C8B3A6811D5678E7007B5CE7 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		C8B3A6821D5678E7007B5CE7 /* AlchemyDataNewsV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlchemyDataNewsV1.framework; path = Carthage/Build/iOS/AlchemyDataNewsV1.framework; sourceTree = "<group>"; };
+		C8B3A6831D5678E7007B5CE7 /* AlchemyLanguageV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlchemyLanguageV1.framework; path = Carthage/Build/iOS/AlchemyLanguageV1.framework; sourceTree = "<group>"; };
+		C8B3A6841D5678E7007B5CE7 /* AlchemyVisionV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlchemyVisionV1.framework; path = Carthage/Build/iOS/AlchemyVisionV1.framework; sourceTree = "<group>"; };
+		C8B3A6851D5678E7007B5CE7 /* ConversationV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ConversationV1.framework; path = Carthage/Build/iOS/ConversationV1.framework; sourceTree = "<group>"; };
+		C8B3A6861D5678E7007B5CE7 /* ConversationV1Experimental.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ConversationV1Experimental.framework; path = Carthage/Build/iOS/ConversationV1Experimental.framework; sourceTree = "<group>"; };
+		C8B3A6871D5678E7007B5CE7 /* DialogV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DialogV1.framework; path = Carthage/Build/iOS/DialogV1.framework; sourceTree = "<group>"; };
+		C8B3A6881D5678E7007B5CE7 /* DocumentConversionV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DocumentConversionV1.framework; path = Carthage/Build/iOS/DocumentConversionV1.framework; sourceTree = "<group>"; };
+		C8B3A6891D5678E7007B5CE7 /* Freddy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Freddy.framework; path = Carthage/Build/iOS/Freddy.framework; sourceTree = "<group>"; };
+		C8B3A68A1D5678E7007B5CE7 /* LanguageTranslatorV2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LanguageTranslatorV2.framework; path = Carthage/Build/iOS/LanguageTranslatorV2.framework; sourceTree = "<group>"; };
+		C8B3A68B1D5678E7007B5CE7 /* NaturalLanguageClassifierV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NaturalLanguageClassifierV1.framework; path = Carthage/Build/iOS/NaturalLanguageClassifierV1.framework; sourceTree = "<group>"; };
+		C8B3A68C1D5678E7007B5CE7 /* PersonalityInsightsV2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PersonalityInsightsV2.framework; path = Carthage/Build/iOS/PersonalityInsightsV2.framework; sourceTree = "<group>"; };
+		C8B3A68D1D5678E7007B5CE7 /* RelationshipExtractionV1Beta.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RelationshipExtractionV1Beta.framework; path = Carthage/Build/iOS/RelationshipExtractionV1Beta.framework; sourceTree = "<group>"; };
+		C8B3A68E1D5678E7007B5CE7 /* RestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RestKit.framework; path = Carthage/Build/iOS/RestKit.framework; sourceTree = "<group>"; };
+		C8B3A68F1D5678E7007B5CE7 /* SpeechToTextV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpeechToTextV1.framework; path = Carthage/Build/iOS/SpeechToTextV1.framework; sourceTree = "<group>"; };
+		C8B3A6901D5678E7007B5CE7 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
+		C8B3A6911D5678E7007B5CE7 /* TextToSpeechV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TextToSpeechV1.framework; path = Carthage/Build/iOS/TextToSpeechV1.framework; sourceTree = "<group>"; };
+		C8B3A6921D5678E7007B5CE7 /* ToneAnalyzerV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ToneAnalyzerV3.framework; path = Carthage/Build/iOS/ToneAnalyzerV3.framework; sourceTree = "<group>"; };
+		C8B3A6931D5678E7007B5CE7 /* TradeoffAnalyticsV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TradeoffAnalyticsV1.framework; path = Carthage/Build/iOS/TradeoffAnalyticsV1.framework; sourceTree = "<group>"; };
+		C8B3A6941D5678E7007B5CE7 /* VisualRecognitionV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisualRecognitionV3.framework; path = Carthage/Build/iOS/VisualRecognitionV3.framework; sourceTree = "<group>"; };
+		C8B3A6961D5678E7007B5CE7 /* BackTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BackTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8B3A6C11D56F506007B5CE7 /* AudioPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayerViewController.swift; sourceTree = "<group>"; };
+		C8B3A6C31D5727DB007B5CE7 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		C8B3A6C61D577FB9007B5CE7 /* Pulsator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pulsator.framework; path = Carthage/Build/iOS/Pulsator.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8B3A6661D5642AE007B5CE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8B3A6C71D577FBA007B5CE7 /* Pulsator.framework in Frameworks */,
+				C8B3A6C51D5727EF007B5CE7 /* SwiftyJSON.framework in Frameworks */,
+				C8B3A6AA1D567B45007B5CE7 /* Alamofire.framework in Frameworks */,
+				C8B3A6AB1D567B45007B5CE7 /* AlchemyDataNewsV1.framework in Frameworks */,
+				C8B3A6AC1D567B45007B5CE7 /* AlchemyLanguageV1.framework in Frameworks */,
+				C8B3A6AD1D567B45007B5CE7 /* AlchemyVisionV1.framework in Frameworks */,
+				C8B3A6AE1D567B45007B5CE7 /* ConversationV1.framework in Frameworks */,
+				C8B3A6AF1D567B45007B5CE7 /* ConversationV1Experimental.framework in Frameworks */,
+				C8B3A6B01D567B45007B5CE7 /* DialogV1.framework in Frameworks */,
+				C8B3A6B11D567B45007B5CE7 /* DocumentConversionV1.framework in Frameworks */,
+				C8B3A6B21D567B45007B5CE7 /* Freddy.framework in Frameworks */,
+				C8B3A6B31D567B45007B5CE7 /* LanguageTranslatorV2.framework in Frameworks */,
+				C8B3A6B41D567B45007B5CE7 /* NaturalLanguageClassifierV1.framework in Frameworks */,
+				C8B3A6B51D567B45007B5CE7 /* PersonalityInsightsV2.framework in Frameworks */,
+				C8B3A6B61D567B45007B5CE7 /* RelationshipExtractionV1Beta.framework in Frameworks */,
+				C8B3A6B71D567B45007B5CE7 /* RestKit.framework in Frameworks */,
+				C8B3A6B81D567B45007B5CE7 /* SpeechToTextV1.framework in Frameworks */,
+				C8B3A6B91D567B45007B5CE7 /* Starscream.framework in Frameworks */,
+				C8B3A6BA1D567B45007B5CE7 /* TextToSpeechV1.framework in Frameworks */,
+				C8B3A6BB1D567B45007B5CE7 /* ToneAnalyzerV3.framework in Frameworks */,
+				C8B3A6BC1D567B45007B5CE7 /* TradeoffAnalyticsV1.framework in Frameworks */,
+				C8B3A6BD1D567B45007B5CE7 /* VisualRecognitionV3.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8B3A6601D5642AE007B5CE7 = {
+			isa = PBXGroup;
+			children = (
+				C8B3A6C61D577FB9007B5CE7 /* Pulsator.framework */,
+				C8B3A6C31D5727DB007B5CE7 /* SwiftyJSON.framework */,
+				C8B3A6811D5678E7007B5CE7 /* Alamofire.framework */,
+				C8B3A6821D5678E7007B5CE7 /* AlchemyDataNewsV1.framework */,
+				C8B3A6831D5678E7007B5CE7 /* AlchemyLanguageV1.framework */,
+				C8B3A6841D5678E7007B5CE7 /* AlchemyVisionV1.framework */,
+				C8B3A6851D5678E7007B5CE7 /* ConversationV1.framework */,
+				C8B3A6861D5678E7007B5CE7 /* ConversationV1Experimental.framework */,
+				C8B3A6871D5678E7007B5CE7 /* DialogV1.framework */,
+				C8B3A6881D5678E7007B5CE7 /* DocumentConversionV1.framework */,
+				C8B3A6891D5678E7007B5CE7 /* Freddy.framework */,
+				C8B3A68A1D5678E7007B5CE7 /* LanguageTranslatorV2.framework */,
+				C8B3A68B1D5678E7007B5CE7 /* NaturalLanguageClassifierV1.framework */,
+				C8B3A68C1D5678E7007B5CE7 /* PersonalityInsightsV2.framework */,
+				C8B3A68D1D5678E7007B5CE7 /* RelationshipExtractionV1Beta.framework */,
+				C8B3A68E1D5678E7007B5CE7 /* RestKit.framework */,
+				C8B3A68F1D5678E7007B5CE7 /* SpeechToTextV1.framework */,
+				C8B3A6901D5678E7007B5CE7 /* Starscream.framework */,
+				C8B3A6911D5678E7007B5CE7 /* TextToSpeechV1.framework */,
+				C8B3A6921D5678E7007B5CE7 /* ToneAnalyzerV3.framework */,
+				C8B3A6931D5678E7007B5CE7 /* TradeoffAnalyticsV1.framework */,
+				C8B3A6941D5678E7007B5CE7 /* VisualRecognitionV3.framework */,
+				C8B3A66B1D5642AE007B5CE7 /* BackTrack */,
+				C8B3A6961D5678E7007B5CE7 /* BackTrack.app */,
+			);
+			sourceTree = "<group>";
+		};
+		C8B3A66B1D5642AE007B5CE7 /* BackTrack */ = {
+			isa = PBXGroup;
+			children = (
+				C8B3A66C1D5642AE007B5CE7 /* AppDelegate.swift */,
+				C8B3A6701D5642AE007B5CE7 /* Main.storyboard */,
+				C8B3A67E1D56559D007B5CE7 /* RecordViewController.swift */,
+				C8B3A6C11D56F506007B5CE7 /* AudioPlayerViewController.swift */,
+				C8B3A6731D5642AE007B5CE7 /* Assets.xcassets */,
+				C8B3A6751D5642AE007B5CE7 /* LaunchScreen.storyboard */,
+				C8B3A6781D5642AE007B5CE7 /* Info.plist */,
+			);
+			path = BackTrack;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8B3A6681D5642AE007B5CE7 /* BackTrack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8B3A67B1D5642AE007B5CE7 /* Build configuration list for PBXNativeTarget "BackTrack" */;
+			buildPhases = (
+				C8B3A6651D5642AE007B5CE7 /* Sources */,
+				C8B3A6661D5642AE007B5CE7 /* Frameworks */,
+				C8B3A6671D5642AE007B5CE7 /* Resources */,
+				C8B3A6801D5677EB007B5CE7 /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BackTrack;
+			productName = BackTrack;
+			productReference = C8B3A6961D5678E7007B5CE7 /* BackTrack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8B3A6611D5642AE007B5CE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Wilson Ding";
+				TargetAttributes = {
+					C8B3A6681D5642AE007B5CE7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 585SNYAD83;
+					};
+				};
+			};
+			buildConfigurationList = C8B3A6641D5642AE007B5CE7 /* Build configuration list for PBXProject "BackTrack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8B3A6601D5642AE007B5CE7;
+			productRefGroup = C8B3A6601D5642AE007B5CE7;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8B3A6681D5642AE007B5CE7 /* BackTrack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8B3A6671D5642AE007B5CE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8B3A6771D5642AE007B5CE7 /* LaunchScreen.storyboard in Resources */,
+				C8B3A6741D5642AE007B5CE7 /* Assets.xcassets in Resources */,
+				C8B3A6721D5642AE007B5CE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8B3A6651D5642AE007B5CE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8B3A66D1D5642AE007B5CE7 /* AppDelegate.swift in Sources */,
+				C8B3A67F1D56559D007B5CE7 /* RecordViewController.swift in Sources */,
+				C8B3A6C21D56F506007B5CE7 /* AudioPlayerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C8B3A6701D5642AE007B5CE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8B3A6711D5642AE007B5CE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C8B3A6751D5642AE007B5CE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8B3A6761D5642AE007B5CE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8B3A6791D5642AE007B5CE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C8B3A67A1D5642AE007B5CE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8B3A67C1D5642AE007B5CE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = BackTrack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wilsonding.BackTrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C8B3A67D1D5642AE007B5CE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = BackTrack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wilsonding.BackTrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8B3A6641D5642AE007B5CE7 /* Build configuration list for PBXProject "BackTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8B3A6791D5642AE007B5CE7 /* Debug */,
+				C8B3A67A1D5642AE007B5CE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8B3A67B1D5642AE007B5CE7 /* Build configuration list for PBXNativeTarget "BackTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8B3A67C1D5642AE007B5CE7 /* Debug */,
+				C8B3A67D1D5642AE007B5CE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8B3A6611D5642AE007B5CE7 /* Project object */;
+}

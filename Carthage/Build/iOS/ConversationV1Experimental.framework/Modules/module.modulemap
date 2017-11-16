@@ -1,0 +1,10 @@
+framework module ConversationV1Experimental {
+  umbrella header "ConversationV1Experimental.h"
+
+  export *
+  module * { export * }
+}
+
+module ConversationV1Experimental.Swift {
+    header "ConversationV1Experimental-Swift.h"
+}

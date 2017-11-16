@@ -1,0 +1,10 @@
+framework module AlchemyVisionV1 {
+  umbrella header "AlchemyVisionV1.h"
+
+  export *
+  module * { export * }
+}
+
+module AlchemyVisionV1.Swift {
+    header "AlchemyVisionV1-Swift.h"
+}

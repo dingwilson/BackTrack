@@ -1,0 +1,10 @@
+framework module PersonalityInsightsV2 {
+  umbrella header "PersonalityInsightsV2.h"
+
+  export *
+  module * { export * }
+}
+
+module PersonalityInsightsV2.Swift {
+    header "PersonalityInsightsV2-Swift.h"
+}

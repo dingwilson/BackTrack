@@ -1,0 +1,10 @@
+framework module DocumentConversionV1 {
+  umbrella header "DocumentConversionV1.h"
+
+  export *
+  module * { export * }
+}
+
+module DocumentConversionV1.Swift {
+    header "DocumentConversionV1-Swift.h"
+}
